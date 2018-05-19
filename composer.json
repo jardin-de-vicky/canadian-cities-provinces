@@ -13,12 +13,12 @@
     },
     "autoload": {
         "psr-4": {
-            "jdv\\Geo\\": "src"
+            "Jdv\\Geo\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "jdv\\Geo\\Test\\": "tests"
+            "Jdv\\Geo\\Test\\": "tests"
         }
     },
     "require-dev": {
@@ -29,10 +29,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "jdv\\Geo\\GeoServiceProvider"
+                "Jdv\\Geo\\GeoServiceProvider"
             ],
             "aliases": {
-                "Geo": "jdv\\Geo\\GeoFacade"
+                "Geo": "Jdv\\Geo\\GeoFacade"
             }
         }
     },
