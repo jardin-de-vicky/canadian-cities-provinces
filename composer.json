@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Jdv\\Geo\\": "src"
+            "Jdv\\Geo\\": "src/"
         }
     },
     "autoload-dev": {
